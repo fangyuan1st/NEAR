@@ -1,0 +1,62 @@
+2018-10-12 14:13:48,418 - model -INFO - reading graph
+2018-10-12 14:13:49,004 - model -INFO - building model
+2018-10-12 14:13:49,177 - model -INFO - placeholder build finish
+2018-10-12 14:13:49,256 - model -INFO - embedding build finish
+2018-10-12 14:13:49,285 - model -INFO - encode build finish
+2018-10-12 14:13:49,691 - model -INFO - build loss finish
+2018-10-12 14:13:50,602 - model -INFO - build optimizer finish
+2018-10-12 14:13:50,932 - model -INFO - trainable_variables: 4106604
+2018-10-12 14:13:52,033 - model -INFO - model restored from ../AA/AA_cora_1.0/model as model
+2018-10-12 14:13:52,062 - model -INFO - best loss restored
+2018-10-12 14:13:52,062 - model -INFO - preparing attributes
+2018-10-12 14:13:52,343 - model -INFO - start noise filter evaluation
+2018-10-12 14:14:48,886 - model -INFO - reading graph
+2018-10-12 14:14:49,447 - model -INFO - building model
+2018-10-12 14:14:49,460 - model -INFO - placeholder build finish
+2018-10-12 14:14:49,508 - model -INFO - embedding build finish
+2018-10-12 14:14:49,533 - model -INFO - encode build finish
+2018-10-12 14:14:49,843 - model -INFO - build loss finish
+2018-10-12 14:14:50,609 - model -INFO - build optimizer finish
+2018-10-12 14:14:50,830 - model -INFO - trainable_variables: 4106604
+2018-10-12 14:14:51,617 - model -INFO - model restored from ../AA/AA_cora_1.0/model as model
+2018-10-12 14:14:51,617 - model -INFO - best loss restored
+2018-10-12 14:14:51,618 - model -INFO - preparing attributes
+2018-10-12 14:14:51,845 - model -INFO - start noise filter evaluation
+2018-10-12 14:22:36,256 - model -INFO - Namespace(data_dir='/home/xiaotong/data/cora', dataset='cora', embed_size=64, epoch_base=0, epochs=10, eval_batch_size=32, lambda1=1.0, learning_rate=0.001, model_dir='.', neg_sample_num=10, noise=0.05, predict=False, prepare=True, resume=False, task='all', train=False, train_batch_size=32)
+2018-10-12 14:22:36,257 - model -INFO - start preparing
+2018-10-12 14:22:36,257 - model -INFO - preparing for cora
+2018-10-12 14:22:36,500 - model -INFO - done prepare for cora
+2018-10-12 14:22:36,502 - model -INFO - building nodes
+2018-10-12 14:22:41,129 - model -INFO - building edges
+2018-10-12 14:22:41,225 - model -INFO - adding noise
+2018-10-12 14:22:42,167 - model -INFO - finish adding noise
+2018-10-12 14:22:42,185 - model -INFO - building train_graph
+2018-10-12 14:22:45,807 - model -INFO - building reprojection
+2018-10-12 14:22:45,807 - model -INFO - sorting by degree
+2018-10-12 14:22:45,832 - model -INFO - reprojecting node to node_id
+2018-10-12 14:22:45,846 - model -INFO - reprojection finish
+2018-10-12 14:22:45,847 - model -INFO - filter edges
+2018-10-12 14:22:45,856 - model -INFO - update node_ids
+2018-10-12 14:22:45,868 - model -INFO - preparing train dataset
+2018-10-12 14:22:46,216 - model -INFO - finish train dataset
+2018-10-12 14:22:46,217 - model -INFO - preparing eval dataset
+2018-10-12 14:22:46,306 - model -INFO - finish eval dataset
+2018-10-12 14:22:46,306 - model -INFO - add valid_edges test_edges
+2018-10-12 14:22:46,312 - model -INFO - preparing valid dataset
+2018-10-12 14:22:46,313 - model -INFO - sampling...
+2018-10-12 14:22:46,565 - model -INFO - neg_hop2_edges generate finish
+2018-10-12 14:22:46,566 - model -INFO - neg_hop2_edges sampling finish
+2018-10-12 14:22:46,569 - model -INFO - valid_set: total: 1808, true: 904
+2018-10-12 14:22:46,736 - model -INFO - finish valid dataset
+2018-10-12 14:22:46,736 - model -INFO - preparing test dataset
+2018-10-12 14:22:46,737 - model -INFO - sampling...
+2018-10-12 14:22:46,800 - model -INFO - neg_hop2_edges generate finish
+2018-10-12 14:22:46,835 - model -INFO - neg_hop2_edges sampling finish
+2018-10-12 14:22:46,916 - model -INFO - valid_set: total: 1808, true: 904
+2018-10-12 14:22:47,045 - model -INFO - finish test dataset
+2018-10-12 14:22:47,047 - model -INFO - node classification 2055: 517
+2018-10-12 14:22:47,048 - model -INFO - preparing valid dataset
+2018-10-12 14:22:47,320 - model -INFO - finish valid dataset
+2018-10-12 14:22:47,321 - model -INFO - prepare test dataset
+2018-10-12 14:22:47,360 - model -INFO - finish test dataset
+2018-10-12 14:22:48,179 - model -INFO - write graph.pk to ./prepare
